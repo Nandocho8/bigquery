@@ -99,6 +99,12 @@ def main():
 
     for i in range(1, 10):
         print(i)
+        print(i)
+        print(i)
+        print(i)
+        print(i)
+        print(i)
+        print(i)
 
     print('ojala de un merge')
 if __name__ == "__main__":

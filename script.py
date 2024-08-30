@@ -97,6 +97,8 @@ def main():
     load_data_from_bucket(dataset_id, table_id,bucket_name,destination_blob_name)
     print('ejemplo')
 
+    for i in range(1, 10):
+        print(i)
 
 if __name__ == "__main__":
     main()

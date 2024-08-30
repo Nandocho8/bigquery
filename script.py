@@ -101,5 +101,10 @@ def main():
         print(i)
 
     print('ojala de un merge')
-if __name__ == "__main__":
-    main()
+    print('ojala de un merge')
+    print('ojala de un merge2')
+    print('ojala de un merge3')
+    print('ojala de un merge4')
+
+    if __name__ == "__main__":
+        main()

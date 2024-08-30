@@ -95,16 +95,5 @@ def main():
     print("Subiendo archivo a bucket y cargando datos a bigquery") 
     upload_blob(bucket_name, source_file_name, destination_blob_name)
     load_data_from_bucket(dataset_id, table_id,bucket_name,destination_blob_name)
-    print('ejemplo')
-
-    for i in range(1, 10):
-        print(i)
-
-    print('ojala de un merge')
-    print('ojala de un merge')
-    print('ojala de un merge2')
-    print('ojala de un merge3')
-    print('ojala de un merge4')
-
     if __name__ == "__main__":
         main()
